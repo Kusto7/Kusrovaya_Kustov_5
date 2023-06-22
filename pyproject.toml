@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kusrovaya-kustov-5"
+version = "0.1.0"
+description = ""
+authors = ["Kustov Kirill"]
+readme = "README.md"
+packages = [{include = "kusrovaya_kustov_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
